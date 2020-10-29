@@ -12,7 +12,7 @@
 
 #define BMCL_STRINGIFY(expr) #expr
 
-#if BMCL_NO_ASSERTS
+#ifdef BMCL_NO_ASSERTS
 #define BMCL_ASSERT(expr)
 #define BMCL_ASSERT_MSG(expr, msg)
 #else
